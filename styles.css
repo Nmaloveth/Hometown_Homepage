@@ -1,0 +1,78 @@
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Lumanosimo', cursive;
+    color: #1D3557;
+    background-color: whitesmoke;
+    
+}
+
+#main {
+    margin: 0 auto;
+    width: 80%;
+}
+#hero {
+    background-image: url("img/lagos1.\ jpg.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    padding-top: 150px;
+    align-items: center; 
+}
+
+#state {
+    background:  #A8DADC;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-bottom: 0px; 
+}
+
+#reason {
+    background: #A8DADC;
+    padding: 5px 10px;
+    border-radius: 3px; 
+}
+
+.hero2 {
+display: flex;
+justify-content: space-around;
+height: 400px; 
+padding-top: 30px;
+background-color: #A8DADC;
+}
+
+.activities {
+display: flex;
+flex-direction: column;
+margin: 0;
+height: 50px;
+background-color: #A8DADC;
+}
+
+
+.image {
+width: 200px;
+border-radius: 60%;
+}
+
+.card {
+padding: 50px 50px 50px 50px;
+display:flex;
+justify-content:space-around;
+align-items: center;
+height: 200px;
+width: 400px;
+margin: 50px auto;
+background: #457B9D;
+color: white;
+border-radius: 10px;
+}
+
+.avatar {
+width: 200px; 
+height: 250px;
+border-radius: 100px;
+}  
