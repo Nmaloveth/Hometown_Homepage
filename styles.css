@@ -10,7 +10,8 @@ body {
 
 #main {
     margin: 0 auto;
-    width: 80%;
+    width: 720px;
+    background-color: #A8DADC;
 }
 #hero {
     background-image: url("img/lagos1.\ jpg.jpg");
@@ -33,7 +34,8 @@ body {
 #reason {
     background: #A8DADC;
     padding: 5px 10px;
-    border-radius: 3px; 
+    border-radius: 3px;
+    width: 412px; 
 }
 
 .hero2 {
@@ -54,8 +56,9 @@ background-color: #A8DADC;
 
 
 .image {
-width: 200px;
-border-radius: 60%;
+width: 100px;
+height: 100px;
+border-radius: 50%;
 }
 
 .card {
@@ -65,10 +68,11 @@ justify-content:space-around;
 align-items: center;
 height: 200px;
 width: 400px;
-margin: 50px auto;
+margin: 0 auto;
 background: #457B9D;
 color: white;
 border-radius: 10px;
+border-bottom: solid 30px #A8DADC;
 }
 
 .avatar {
